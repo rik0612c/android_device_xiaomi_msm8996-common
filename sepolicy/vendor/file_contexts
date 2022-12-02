@@ -6,6 +6,10 @@
 /dev/pn548                            u:object_r:nfc_device:s0
 /dev/sysmatdrv                        u:object_r:sysmatdrv_device:s0
 
+# Dolby
+/data/vendor/dolby(/.*)?                                      u:object_r:vendor_data_file:s0
+/(vendor|system/vendor)/bin/hw/vendor\.dolby\.hardware\.dms@2\.0-service u:object_r:hal_dms_default_exec:s0
+
 # Sys files
 /sys/devices/soc/70000.qcom,msm-thermal/uio/uio[0-9]+(/.*)?                             u:object_r:sysfs_uio_file:s0
 /sys/devices/soc/624000.ufshc/host0/target0:0:0/0:0:0:0/block/sda/queue(/.*)?           u:object_r:sysfs_scsi_host:s0
