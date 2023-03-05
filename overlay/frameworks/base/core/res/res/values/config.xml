@@ -340,4 +340,10 @@
          For example, a device with notification and battery lights that supports
          pulsating and RGB control would set this config to 75. -->
     <integer name="config_deviceLightCapabilities">235</integer>
+    
+    <!-- Enables or disables haptic effect when the text insertion/selection handle is moved
+         manually by the user. Off by default, since the expected haptic feedback may not be
+         available on some devices. -->
+    <bool name="config_enableHapticTextHandle">true</bool>
+    
 </resources>
