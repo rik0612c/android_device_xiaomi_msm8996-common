@@ -292,4 +292,10 @@
     <string-array name="config_biometric_sensors" translatable="false" >
         <item>0:2:15</item> <!-- ID0:Fingerprint:Strong -->
     </string-array>
+    
+    <!-- The type of the light sensor to be used by the display framework for things like
+         auto-brightness. If unset, then it just gets the default sensor of type TYPE_LIGHT. 
+         Credit: AmeChanRain -->
+    <string name="config_displayLightSensorType" translatable="false">android.sensor.light</string>
+    
 </resources>
