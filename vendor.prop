@@ -21,6 +21,9 @@ bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 
+# Bluetooth Fix for QPR2 Update by 0xCAFEBABE
+bluetooth.le.disable_apcf_extended_features=1
+
 # Adreno
 ro.hardware.vulkan=adreno
 ro.hardware.egl=adreno
